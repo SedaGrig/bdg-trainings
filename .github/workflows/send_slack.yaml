@@ -16,7 +16,7 @@ jobs:
           run: |
             OUTPUT=$(./myscript.sh 2>&1)
             MESSAGE="*Script execution:*\n\`\`\`$OUTPUT\`\`\`"
-          curl -X POST --data-urlecode "payload={\"channel\": \"#bdgfor-cicd-try\", \"username\": \"webhookbot\", \"text\": \"MESSAGE\", \"icon_emoji\": \":ghost:\"}" $SLACK_WEBHOOK_URL
+          curl -X POST --data-urlecode "payload={\"channel\": \"#bdgfor-cicd-try\", \"username\": \"sedagrigoryan798\", \"text\": \"MESSAGE\", \"icon_emoji\": \":ghost:\"}" $SLACK_WEBHOOK_URL
           env:
              SLACK_WEBHOOK_URL:  https://hooks.slack.com/services/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
 
