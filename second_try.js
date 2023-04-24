@@ -1,4 +1,4 @@
-// The return statement will return values from a function
+
 function sayGoodnight1(name) {
     return 'Goodnight ' + name;
 }
